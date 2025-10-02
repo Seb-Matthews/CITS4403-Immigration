@@ -28,6 +28,3 @@ __pycache__/
 # OS specific
 .DS_Store
 Thumbs.db
-
-# Data files (if large or sensitive - uncomment if needed)
-# data/*.csv

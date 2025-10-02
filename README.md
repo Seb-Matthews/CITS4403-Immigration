@@ -62,10 +62,11 @@ These instructions are also in the first notebook.
 
 ## Team
 
-Seb Matthews (22482441)
-Zachary Baker (23155062)
+- Seb Matthews (22482441)
+- Zachary Baker (23155062)
 
 ## License & Attribution
 
 Academic project for CITS4403 - Computational Modeling
+
 Code was written with the help of AI assistants CoPilot & Claude Code
