@@ -13,7 +13,7 @@ Source: [Figshare Collection](https://figshare.com/collections/Bilateral_interna
 
 - Current dataset: 10 countries (subset for initial development, desperately too small)
 - Format: Origin-destination migration flow matrix
-- File: `data/bilat_mig.csv`
+- File: `data/bilat_mig_40_countries.csv`
 
 ## Project Structure
 
