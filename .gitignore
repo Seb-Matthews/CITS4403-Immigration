@@ -1,0 +1,30 @@
+# Claude Code directory
+.claude/
+
+# Unit reference materials (course content)
+UnitReferenceMaterial/
+
+# Windows Zone Identifier files
+*:Zone.Identifier
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
