@@ -11,7 +11,7 @@ Computational modeling of international migration flows using graph-based networ
 **Bilateral international migration flow estimates**
 Source: [Figshare Collection](https://figshare.com/collections/Bilateral_international_migration_flow_estimates_for_200_countries/4470464/10)
 
-- Current dataset: 10 countries (subset for initial development, desperately too small)
+- Current dataset: 40 countries (subset)
 - Format: Origin-destination migration flow matrix
 - File: `data/bilat_mig_40_countries.csv`
 
@@ -48,9 +48,14 @@ These instructions are also in the first notebook.
 
 ## Notebooks
 
-- `01_migration_graph_basics.ipynb` - Graph construction and basic visualization
-- `02_graph_analysis.ipynb` - Advanced layouts and centrality analysis
-- `03_graph_metrics_lab2.ipynb` - Clustering, path length, and degree distribution
+- `01_migration_graph_basics v1.0.ipynb` - Graph construction and basic visualization
+- `01_migration_graph_basics v1.1.ipynb` - Graph construction and basic visualization
+- `02_graph_analysis.ipynb v1.0` - Advanced layouts and centrality analysis
+- `02_graph_analysis.ipynb v1.1` - Advanced layouts and centrality analysis
+- `03_graph_metrics_lab2.ipynb v1.0` - Clustering, path length, and degree distribution
+- `03_graph_metrics_lab2.ipynb v1.1` - Clustering, path length, and degree distribution
+- `04_weighted_network_analysis.ipynb` - Metrics run using weighted analysis
+
 
 ## Technologies
 
