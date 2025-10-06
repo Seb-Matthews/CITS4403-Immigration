@@ -4,7 +4,11 @@
 
 ## Overview
 
-Computational modeling of international migration flows using graph-based network analysis techniques. This project applies NetworkX graph theory concepts to understand migration patterns between countries. (overview is a WiP, only covers the work done up until this commit)
+Computational modeling of international migration flows using a two-phase approach:
+1. **Graph Analysis** (Notebooks 1-4) - Network structure, centrality, clustering, power-law distributions
+2. **Agent-Based Modeling** (Notebooks 5-7) - Mechanism testing, calibration, scenario analysis
+
+This project identifies empirical migration patterns and builds an ABM to explain why these patterns emerge.
 
 ## Data Source
 
@@ -48,13 +52,16 @@ These instructions are also in the first notebook.
 
 ## Notebooks
 
-- `01_migration_graph_basics v1.0.ipynb` - Graph construction and basic visualization
-- `01_migration_graph_basics v1.1.ipynb` - Graph construction and basic visualization
-- `02_graph_analysis.ipynb v1.0` - Advanced layouts and centrality analysis
-- `02_graph_analysis.ipynb v1.1` - Advanced layouts and centrality analysis
-- `03_graph_metrics_lab2.ipynb v1.0` - Clustering, path length, and degree distribution
-- `03_graph_metrics_lab2.ipynb v1.1` - Clustering, path length, and degree distribution
-- `04_weighted_network_analysis.ipynb` - Metrics run using weighted analysis
+**Phase 1: Graph Analysis**
+- `01_migration_graph_basics.ipynb` - Graph construction and basic visualization
+- `02_graph_analysis.ipynb` - Advanced layouts and centrality analysis
+- `03_graph_metrics_lab2.ipynb` - Clustering, path length, and degree distribution
+- `04_weighted_network_analysis.ipynb` - Weighted analysis, power-law fitting, hub identification
+
+**Phase 2: Agent-Based Modeling**
+- `05_abm_baseline_random.ipynb` - Baseline random migration model (r = -0.04, proves random fails)
+- `06_abm_enhanced_model.ipynb` - Enhanced model with economic, network, and distance mechanisms
+- `07_synthesis_scenarios_report.ipynb` - Scenario testing, model comparison, visualizations
 
 
 ## Technologies
@@ -62,8 +69,9 @@ These instructions are also in the first notebook.
 - **Python 3.x**
 - **NetworkX** - Graph analysis
 - **Pandas** - Data manipulation
-- **Matplotlib** - Visualization
+- **Matplotlib / Seaborn** - Visualization
 - **NumPy** - Numerical computing
+- **SciPy** - Statistical analysis (power-law fitting, correlations)
 
 ## Team
 
